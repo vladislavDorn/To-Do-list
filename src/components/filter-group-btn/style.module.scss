@@ -1,0 +1,19 @@
+.filter__item {
+    padding: 5px 10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;    
+}  
+.filter__item:first-child {
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+}
+.filter__item:last-child {
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+.filter__item_ative {
+    background: dodgerblue;
+    color: #fff;
+}

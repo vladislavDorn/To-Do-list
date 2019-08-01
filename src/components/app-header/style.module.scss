@@ -1,0 +1,15 @@
+@import '../../styles/style.scss';
+
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &__title {
+        font-family: $main-font;
+    }
+    &__todo_details {
+        color: #444444;
+        font-family: Arial, sans-serif;
+    }
+}

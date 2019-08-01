@@ -1,0 +1,45 @@
+@import '../../styles/style.scss';
+.todo__text {
+    font-size: 17px;
+    font-family: $main-font;
+    cursor: pointer;
+}
+.todo__text_important {
+    color: dodgerblue;
+    font-weight: 500;
+}
+.todo__text_done {
+    text-decoration: line-through;
+}
+.todo__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo__btn {
+    width: 30px;
+    height: 30px;
+    cursor: pointer; 
+    border-radius: 3px;
+    background: none;
+    transition: all .3s linear;
+}
+.todo__btn:not(:last-child) {
+    margin-right: 5px;
+}
+.todo__btn__item_trash {
+    border: 1px solid red;
+    color: red;
+}
+.todo__btn__item_trash:hover {
+    color: #fff;
+    background: red;
+}
+.todo__btn__item_exclamation {
+    border: 1px solid green;
+    color: green;
+}
+.todo__btn__item_exclamation:hover {
+    color: #fff;
+    background: green;
+}

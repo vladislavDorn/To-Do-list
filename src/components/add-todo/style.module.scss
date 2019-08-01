@@ -1,0 +1,25 @@
+.add_todo {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__input {
+        width: 400px;
+        font-size: 15px;
+        padding: 4px;
+        border-radius: 5px;
+        border: 1px solid #e5e5e5;
+        margin-right: 10px;
+    }
+    &__btn {
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        padding: 4px;
+        border-radius: 4px;
+        background: #fff;
+        border: 1px solid #444444;
+        color: #444444;
+        cursor: pointer;
+    }
+
+}
